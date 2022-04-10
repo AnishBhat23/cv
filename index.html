@@ -1,93 +1,74 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <title>Anish's Personal Site</title>
-</head>
-
-<body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="images/anish.png" alt="Anish profile picture"></td>
-      <td>
-        <h1>Anish Bhat</h1>
+  <head>
+    <meta charset="utf-8">
+    <title>Anish Bhat</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Rubik&family=Sacramento&family=Monoton&family=Aldrich&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="images\cloud.png" alt="cloud_img">
+      <h1>I'm Anish.</h1>
+      <h2>a <span class = "pro">pro</span>grammer.</h2>
+      <img class="bottom-cloud" src="images\cloud.png" alt="cloud_img">
+      <img class="mountain-img" src="images\mountain.png" alt="mountain_img">
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="images\propic.png" alt="profilepic">
+        <h2>Hello.</h2>
         <p><em>BE in CSE at <strong><a href="https://www.sapthagiri.edu.in/">SCE.</a></strong></em></p>
         <p>
           I am a student at Sapthagiri College Of Engineering. I am currently pursuing a BE in Computer Science and Engineering.
           I have a keen interest in web development, machine learning and blockchain technology. I also like watching movies,
           playing battle royale games and spend my free time reading fiction.
         </p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>Poorna Prajna Education Centre from grade 1 to 10</li>
-    <li>VidyaMandir Ind PU College for pre-university</li>
-    <li>Sapthagiri College Of Engineering for BE in CSE</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2015-2016</td>
-        <td>Co-ordinator at school</td>
-      </tr>
-      <tr>
-        <td>2017</td>
-        <td>Co-ordinator at PU College</td>
-      </tr>
-    </tbody>
-    <tfoot>
-
-    </tfoot>
-
-  </table>
-  <hr>
-
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>C</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Java</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>Python</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Web development</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a><br>
-  <a href="contact.html">Contact Me</a>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="c" src="images\c-icon.png" alt="">
+          <h3>C/C++</h3>
+          <p>
+            I started my coding journey with C and learnt all my basic data structures in C. I love to experiment with C++ in game development.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="python" src="images\py-icon.png" alt="">
+          <h3>Python</h3>
+          <p>
+            I am working on projects using Python and it's my current favorite language.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="java" src="images\java-icon.png" alt="">
+          <h3>Java</h3>
+          <p>
+            I am a Microsoft Certified Java Developer and have been creating stuff using Java for a while now.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" alt="gif">
+        <h2>Get In Touch</h2>
+        <h3>I am in college right now and am open to collaborate on projects.</h3>
+        <p class="contact-message">Hit me up if you want company on your project!</p>
+        <a class="btn" href="mailto:emsonanish12@email.com">CONTACT ME</a>
+      </div>
+    </div>
 
 
-</body>
-
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/anish-b-836810160/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/AnishBhat1">Twitter</a>
+      <!--<a class="footer-link" href="https://www.appbrewery.co/">Website</a>-->
+      <p class="rights">© 2022 Anish Bhat.</p>
+    </div>
+  </body>
 </html>
